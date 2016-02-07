@@ -1,0 +1,25 @@
+//: Playground - Juego de Memoria - Lombardo Alejandro Ardón Mejía
+
+import UIKit
+
+//Definiendo el rango
+let rango = 0...100
+
+//Recorriendo el rango para capturar los valores del mismo
+for id in rango {
+    
+    if id % 5 == 0 {
+        print ("\(id) Bingo!!!")
+    }
+    
+    if id % 2 == 0 {
+        print ("\(id) par!!!")
+    } else {
+        print ("\(id) impar!!!")
+    }
+    
+    if id >= 30 && id <= 40 {
+        print ("\(id) Viva Swift!!!")
+    }
+    
+}
